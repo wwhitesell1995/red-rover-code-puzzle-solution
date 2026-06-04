@@ -1,3 +1,7 @@
+# Approach
+
+I approached this Code Puzzle by creating an N-ary tree construct to store the heirarchy of the different fields. I've addressed various cases on how the string could be input should the test input be insufficient (e.g. empty strings, incomplete parenthesis, etc). The output is done by going through the tree's children and outputting the tabulation based on their level within the tree. Levels are traversed by checking if the node has any children and then going through those recursively. The test cases are passing and the output matches the test output (both ordered and unordered.)
+
 # Operating Instructions
 There are two ways that this applications can be tested.
 
